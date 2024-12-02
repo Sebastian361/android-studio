@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Permiso para acceso a Internet (necesario para WebView) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -10,17 +15,37 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Ejemplografico2"
+        android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
+
+        <!-- Pantalla de autenticación (Pantalla inicial) -->
         <activity
-            android:name=".MainActivity"
+            android:name=".AuthActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Pantalla principal (después de autenticación) -->
+        <activity
+            android:label="Fresas La Playa"
+            android:name=".PantallaPrincipalActivity"
+            android:exported="true" />
+
+        <!-- Pantalla de ofertas -->
+        <activity
+            android:name=".OfertasActivity"
+            android:exported="true" />
+
+        <!-- pantalla para CRUD del usuario admin -->
+        <activity android:name=".AdminActivity" />
+
+        <activity android:name=".GestionChatAdminActivity" />
+
+
+
     </application>
 
 </manifest>

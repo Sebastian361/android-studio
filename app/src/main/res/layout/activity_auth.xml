@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_yellow"
+    android:padding="16dp">
+
+
+    <!-- Campo para nombre de usuario -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de usuario"
+        android:textColor="#000000"
+        android:textColorHint="#666666"
+        android:backgroundTint="#000000"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Campo para email -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electrónico"
+        android:textColor="#000000"
+        android:textColorHint="#666666"
+        android:backgroundTint="#000000"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Campo para contraseña -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:textColor="#000000"
+        android:textColorHint="#666666"
+        android:backgroundTint="#000000"
+        android:inputType="textPassword"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para iniciar sesión -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_blue"
+        android:textColor="@color/text_white"
+        android:text="Iniciar sesión"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Botón para registrarse -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_blue"
+        android:textColor="@color/text_white"
+        android:text="Registrarse"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para modo invitado -->
+    <Button
+        android:id="@+id/btnModoInvitado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button_blue"
+        android:textColor="@color/text_white"
+        android:text="Modo Invitado"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para iniciar sesión con Google -->
+    <Button
+        android:id="@+id/btnGoogleSignIn"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button_blue"
+        android:textColor="@color/text_white"
+        android:text="Iniciar sesión con Google" />
+
+    <!-- Espacio vacío que ocupa todo el espacio restante para empujar la imagen hacia abajo -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- Imagen en la parte inferior, centrada -->
+    <ImageView
+        android:id="@+id/logoEstablecimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/la_playa"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="Logo del establecimiento"
+        android:layout_marginBottom="390dp"/>
+
+</LinearLayout>

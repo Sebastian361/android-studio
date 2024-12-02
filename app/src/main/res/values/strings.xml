@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">ejemplografico2</string>
+    <string name="default_web_client_id">797779807762-kvsh0kd7lf62g150kc9pju4l1it2bg11.apps.googleusercontent.com</string>
+    <string name="cerrar_sesi_n">Cerrar Sesión</string>
+    <string name="gesti_n_de_chat">Gestión de Chat</string>
+    <string name="clientes">Clientes</string>
+    <string name="todo">TODO</string>
+    <string name="campana">Campana</string>
+    <string name="ofertas">Ofertas</string>
+    <string name="menu">Menu</string>
+    <string name="pantalla_principal">Pantalla Principal</string>
+    <string name="escribe_tu_respuesta">Escribe tu respuesta</string>
+    <string name="enviar_respuesta">Enviar Respuesta</string>
+    <string name="cerrar_sesi_on">Cerrar sesión</string>
+    <string name="iniciar_sesi_n_registrarse">Iniciar sesión / Registrarse</string>
 </resources>

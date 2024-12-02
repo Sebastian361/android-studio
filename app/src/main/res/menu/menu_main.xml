@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Opción para iniciar sesión o registrarse -->
+    <item
+        android:id="@+id/menu_inicio_sesion"
+        android:title="@string/iniciar_sesi_n_registrarse"
+        android:theme="@style/MenuItemStyle"/>
+
+    <!-- Opción para cerrar sesión -->
+    <item
+        android:id="@+id/menu_cerrar_sesion"
+        android:title="@string/cerrar_sesi_on"
+        android:theme="@style/MenuItemStyle"/>
+
+</menu>

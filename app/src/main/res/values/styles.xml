@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo personalizado para los elementos del menú -->
+    <style name="MenuItemStyle">
+        <item name="android:textColor">@color/text_black</item> <!-- Cambia el color aquí -->
+    </style>
+
+</resources>

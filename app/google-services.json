@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "797779807762",
+    "project_id": "chat-tienda-soporte",
+    "storage_bucket": "chat-tienda-soporte.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797779807762:android:e8e6ad608f6f90e8d9d2cb",
+        "android_client_info": {
+          "package_name": "com.example.ejemplografico2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797779807762-9p70ciophj5emjfc5mqvbblsn19c8n3n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ejemplografico2",
+            "certificate_hash": "9ae281e03b55e3aed3a68c6c3528d546e38678db"
+          }
+        },
+        {
+          "client_id": "797779807762-kvsh0kd7lf62g150kc9pju4l1it2bg11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd094zWPbRFG6gaAOq7lza-lMybAgDsS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797779807762-kvsh0kd7lf62g150kc9pju4l1it2bg11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
